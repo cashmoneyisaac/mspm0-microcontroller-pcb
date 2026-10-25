@@ -1,0 +1,1 @@
+ Part Detail @font-face{font-family:'Inter';src:url('/component-platform-static/fonts/Inter-Latin.woff2?v=ff99c65b') format('woff2');font-display:swap;} 
