@@ -1,0 +1,26 @@
+{
+  "populated_parts": 32,
+  "bom_groups": 19,
+  "top_parts": 32,
+  "bottom_parts": 0,
+  "unique_reference_match": true,
+  "coordinates_verified_against_native_export": true,
+  "rotation_basis": "Native KiCad angles normalized to 0..360; JLC model alignment still requires upload preview verification",
+  "missing_catalogue_code": [
+    "X1 (exact ECS MPN retained; sourcing required)"
+  ],
+  "excluded": [
+    "FID1",
+    "FID2",
+    "FID3",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "J2"
+  ],
+  "source_sha256": {
+    "TI MSPM0.kicad_pcb": "9630433255221fcfc20709132bce1b802d8c5aed73dfc435baa3bd4a0ba990f1",
+    "TI MSPM0.kicad_sch": "5b456627e3ae86273537679661f54b8e06697cd056aebb7a19a19c11fb7ea566"
+  }
+}

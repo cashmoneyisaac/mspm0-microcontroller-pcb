@@ -1,0 +1,22 @@
+# Verified part selections
+
+Catalogue identity and package checked on 24 October 2026. Catalogue presence does not guarantee quote-time stock or availability in the signed-in assembly account. No parts purchased.
+- **C1 C10 C16**: Samsung Electro-Mechanics, CL31A106KAHNNNE; 10uF 25V X5R 10%; 1206. [Source](https://jlcpcb.com/partdetail/C9807)
+- **C2 C7 C8 C12 C13 C14**: Samsung Electro-Mechanics, CL10B474KO8NNNC; 470nF 16V X7R 10%; 0603. [Source](https://jlcpcb.com/partdetail/C105526)
+- **C3**: Samsung Electro-Mechanics, CL10B105KA8NNNC; 1uF 25V X7R 10%; VREF decoupling; 0603. [Source](https://jlcpcb.com/partdetail/C29936)
+- **C4 C11**: Samsung Electro-Mechanics, CL10B103KB8NNNC; 10nF 50V X7R 10%; 0603. [Source](https://jlcpcb.com/partdetail/C1589)
+- **C5 C6**: FH (Guangdong Fenghua Advanced Tech), 0603CG150J500NT; 15pF 50V C0G 5%; 0603. [Source](https://jlcpcb.com/partdetail/C91703)
+- **C9**: Kyocera AVX, 12063C475K4T2A; 4.7uF 25V X7R 10%; 1206. [Source](https://jlcpcb.com/partdetail/C5348850)
+- **C15**: Samsung Electro-Mechanics, CL10B104KB8NNNC; 100nF 50V X7R 10%; 0603. [Source](https://jlcpcb.com/partdetail/C1591)
+- **R1 R4**: UNI-ROYAL, 0603WAF0000T5E; 0 ohm jumper 100mW; 0603. [Source](https://jlcpcb.com/partdetail/C21189)
+- **R2**: UNI-ROYAL, 0603WAF4702T5E; 47kohm 1% 100mW; 0603. [Source](https://jlcpcb.com/partdetail/C25819)
+- **R3**: YAGEO, AT0603BRD07100KL; 100kohm 0.1% 25ppm/C 100mW; ROSC precision resistor; 0603. [Source](https://jlcpcb.com/partdetail/C855559)
+- **R5 R6 R7 R8**: UNI-ROYAL, 0603WAF5101T5E; 5.1kohm 1% 100mW; 0603. [Source](https://jlcpcb.com/partdetail/C23186)
+- **R9**: UNI-ROYAL, 0603WAF2201T5E; 2.2kohm 1% 100mW; 0603. [Source](https://jlcpcb.com/partdetail/C4190)
+- **J1**: GCT, USB4105-GF-A-060; USB Type-C USB2.0; 0.60mm shell stakes; USB4105 top mount. [Source](https://jlcpcb.com/partdetail/C3025063)
+- **U1**: Texas Instruments, MSPM0G3507SPTR; MSPM0G3507 MCU; 48-pin LQFP 7x7mm; LQFP-48_7x7mm_P0.5mm. [Source](https://jlcpcb.com/partdetail/C22362630)
+- **U2**: STMicroelectronics, USBLC6-2SC6; USB dual data-line ESD protection; SOT-23-6. [Source](https://jlcpcb.com/partdetail/C7519)
+- **U3**: MaxLinear, SPX3819M5-L-3-3/TR; 3.3V 500mA LDO; MaxLinear original; SOT-23-5. [Source](https://jlcpcb.com/partdetail/C9055)
+- **U4**: WCH, CH340E; USB UART bridge; MSOP-10. [Source](https://jlcpcb.com/partdetail/C99652)
+- **U5**: STMicroelectronics, LIS2DHTR; 3-axis accelerometer; original 14-pin LIS2DH; LGA-14_2x2mm_P0.35mm. [Source](https://jlcpcb.com/partdetail/C155670)
+- **X1**: ECS Inc., ECS-80-12-33-JGN-TR3; 8MHz passive crystal; 12pF CL; 20ppm tolerance; 30ppm stability; 400ohm max ESR; 100uW drive; SMD3225-4P. [Source](https://ecsxtal.com/products/crystals/surface-mount-crystals/ecs-80-12-33-jgn-tr3/)
