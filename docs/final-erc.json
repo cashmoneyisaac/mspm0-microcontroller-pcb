@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-24T19:48:10",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/be79d675-6123-43fe-948a-8831a1ab8519",
+            "violations": [
+                {
+                    "description": "Symbol 'USB_C_Receptacle_USB2.0_16P' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [USB_C_Receptacle_USB2.0_16P]",
+                            "pos": {
+                                "x": 27.94,
+                                "y": 46.99
+                            },
+                            "uuid": "631d6d07-64f6-476a-a73f-b14005dea53f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Conn_ARM_SWD_TagConnect_TC2030' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Conn_ARM_SWD_TagConnect_TC2030]",
+                            "pos": {
+                                "x": 109.22,
+                                "y": 133.35
+                            },
+                            "uuid": "e815e48c-2c92-4c14-b5da-18d5bcdcd04d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        }
+    ],
+    "source": "TI MSPM0.kicad_sch"
+}
