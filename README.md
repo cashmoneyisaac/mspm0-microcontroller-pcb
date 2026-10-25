@@ -1,47 +1,26 @@
-# MSPM0 Microcontroller PCB
+# mspm0 microcontroller pcb
 
-A custom two-layer microcontroller board built in KiCad 9 around the Texas Instruments MSPM0G3507. This project explores embedded hardware design from schematic capture and component selection through PCB layout review and fabrication and assembly file preparation.
+my first custom microcontroller board, built around the ti mspm0g3507 in kicad 9. i made this project to learn pcb design, component selection, and how to take a schematic through layout and manufacturing preparation.
 
-![MSPM0 PCB layout](docs/Reviewed-board-front.svg)
+![mspm0 pcb layout](docs/Reviewed-board-front.svg)
 
-## Hardware
+## hardware
 
-- TI MSPM0G3507 microcontroller with an external 8 MHz crystal
-- USB-C power input with USB data-line ESD protection
-- SPX3819 3.3 V regulator
-- CH340E USB-to-UART bridge
-- LIS2DH three-axis accelerometer connected over I²C
-- Tag-Connect SWD programming and debug access
-- Two-layer PCB with ground pours; 32 fitted components
+- ti mspm0g3507 microcontroller with an external 8 mhz crystal
+- usb-c power input with usb data-line esd protection
+- spx3819 3.3 v regulator
+- ch340e usb-to-uart bridge
+- lis2dh three-axis accelerometer connected over i²c
+- tag-connect swd programming and debug access
+- two-layer pcb with ground pours and 32 fitted components
 
-## Engineering work
+## files
 
-Developed the schematic and component integration, then refined the board through datasheet review and assisted layout revisions. Review addressed the USB power path, open-drain UART pull-up, reset network, local decoupling, voltage-reference capacitance, regulator bypass and USB input capacitance. Prepared Gerber and drill exports, an assembly BOM, and component placement files with sourcing and orientation notes.
+- editable kicad project, schematic, board, and symbol libraries in the root folder
+- [schematic pdf](docs/Reviewed-schematic.pdf)
+- [board layout](docs/Reviewed-board.svg)
+- [design review](docs/Final-review.md)
+- [gerbers and drill files](manufacturing/gerbers/)
+- [bom, placement files, and assembly notes](manufacturing/assembly/README.md)
 
-The project was a hands-on introduction to KiCad and electrical design fundamentals. AI tools assisted with design review, routing revisions, and manufacturing documentation.
-
-## Current status
-
-**Design and manufacturing files prepared; physical bring-up and firmware validation pending.**
-
-- Saved-design checks reported zero PCB DRC errors, zero unconnected items, zero schematic parity differences, and zero schematic ERC errors under the configured rules.
-- Nine library-footprint warnings and two library-symbol warnings remain documented in the [design review](docs/Final-review.md).
-- The exact crystal still requires sourcing; sensor/USB land patterns and assembly-model rotations require manufacturer review before ordering.
-
-Next steps are current-limited power-up, rail measurements, SWD connection, UART testing and I²C accelerometer communication. This is a USB bench prototype; hardware operation and flight suitability have not been demonstrated.
-
-## Repository guide
-
-| Files | Purpose |
-| --- | --- |
-| `TI MSPM0.kicad_pro`, `.kicad_sch`, `.kicad_pcb` | Editable KiCad project, schematic and board |
-| `*.kicad_sym`, `sym-lib-table` | Project-local symbol libraries |
-| [Schematic PDF](docs/Reviewed-schematic.pdf) | View the circuit without installing KiCad |
-| [Board layout](docs/Reviewed-board.svg) | PCB layout overview |
-| [Design review](docs/Final-review.md) | Circuit corrections, checks and remaining issues |
-| [Manufacturing files](manufacturing/) | Gerbers, drills and export archives |
-| [Assembly notes](manufacturing/assembly/README.md) | BOM, placement files, sourcing and assembly requirements |
-
-Open `TI MSPM0.kicad_pro` in KiCad 9. Project-local symbol libraries resolve through `${KIPRJMOD}`. Preserve the reviewed board footprints when opening the project; some intentionally differ from library copies. External 3D models are not bundled.
-
-**Author:** Isaac Nuriddin · Electrical Engineering, Embry-Riddle Aeronautical University
+isaac nuriddin · electrical engineering · embry-riddle aeronautical university
