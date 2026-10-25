@@ -1,0 +1,10 @@
+# Local KiCad state and generated caches
+*.kicad_prl
+*.lck
+~*
+*-backups/
+*.bak
+*.kicad_sch-bak
+fp-info-cache
+.DS_Store
+.history/
