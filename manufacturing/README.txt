@@ -1,0 +1,1 @@
+Bare-board Gerbers and separate PTH/NPTH Excellon drills. Two layers, 1.6 mm, 1 oz copper. Read ../Final-review.md before ordering: fine-pitch sensor lands and modified USB ground lands need factory DFM acceptance. This is not a turnkey assembly package.
